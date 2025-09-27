@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 class Video
 {
     private string _title;
@@ -31,6 +33,11 @@ class Video
     public int GetNumberOfComments()
     {
         return _comments.Count;
+    }
+
+    public List<Comment> GetComments()
+    {
+        return _comments;
     }
 
     public Video(string title, string author, int lengthInSeconds)
