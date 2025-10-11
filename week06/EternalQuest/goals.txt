@@ -1,0 +1,3 @@
+0
+SimpleGoal:Say Hi to everyone|Saying hello to everyone each day!|10|False
+EternalGoal:Read Scriptures|Reading the scriptures every day even on sad days.|100
